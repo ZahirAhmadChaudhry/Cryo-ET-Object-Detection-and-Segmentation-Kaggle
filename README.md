@@ -4,6 +4,8 @@
 
 This repository showcases our ongoing effort to develop a **3D U-Net**-based framework for detecting and classifying multiple protein complexes within cryo-electron tomograms (cryoET). We are participating in the [Kaggle Challenge “CryoET Object Identification”](https://www.kaggle.com/competitions/czii-cryo-et-object-identification), which involves accurately finding the centroid coordinates of up to five particle types—some of which are considered easier (apo-ferritin, virus-like particles, ribosomes) and some harder (thyroglobulin, β-galactosidase). By tackling this challenge, we hope to further computational biology research by clarifying protein spatial organization in a near-native environment.
 
+![Tomogram Slices](presentation/tomogram-slice.jpg)
+![Connecting Segments through Reinforement Learning](presentation/connected_segments.jpg)
 Our journey began by **preprocessing and visualizing raw tomograms** stored in `zarr` format, each representing a 3D volume of voxel intensities. We then integrated ground-truth coordinates, provided in `JSON` files, to create labeled 3D targets for supervised training. Our **initial baseline** was a straightforward **3D U-Net** segmentation pipeline, which we tested on a few tomograms to confirm the viability of voxel-wise classification at this scale.
 
 Recognizing the complexities of cryoET data—including significant noise, variable contrast, and large file sizes—we explored **synthetic data generation**. By simulating approximate intensities and shapes for different protein complexes, we aimed to expand the training set and reduce domain gaps between real and synthetic volumes. Simultaneously, we devised a **multi-phase approach** for inference:
