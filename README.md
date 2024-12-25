@@ -1,6 +1,6 @@
 # CryoET Object Identification - Supervised 3D Image Segmentation
 
-[NOTE! Project is ongoing. Please see the [Presentation](https://github.com/ZahirAhmadChaudhry/Recommendation_Systems_Kaggle/blob/main/Presentation/Recommendation_systems_Kaggle.pdf) for latest updates on the project]
+[NOTE! Project is ongoing. Please see the [Presentation](https://github.com/ZahirAhmadChaudhry/Cryo-ET-Object-Detection-and-Segmentation-Kaggle/blob/main/presentation/Cryo_ET_Presentation.pdf) for latest updates on the project]
 
 This repository showcases our ongoing effort to develop a **3D U-Net**-based framework for detecting and classifying multiple protein complexes within cryo-electron tomograms (cryoET). We are participating in the [Kaggle Challenge “CryoET Object Identification”](https://www.kaggle.com/competitions/czii-cryo-et-object-identification), which involves accurately finding the centroid coordinates of up to five particle types—some of which are considered easier (apo-ferritin, virus-like particles, ribosomes) and some harder (thyroglobulin, β-galactosidase). By tackling this challenge, we hope to further computational biology research by clarifying protein spatial organization in a near-native environment.
 
@@ -13,6 +13,8 @@ Recognizing the complexities of cryoET data—including significant noise, varia
 3. **Non-maximum suppression (NMS)** and radius constraints to refine candidate centroids.  
 4. **Optional 3D smoothing** to address artifacts or noisy boundaries.  
 5. **Final coordinate extraction** in CSV submission format, aligning with Kaggle’s specifications.
+
+![Deep Learning Proposed Framework](presentation/framework.png)
 
 An important aspect of our evaluation is the **F-beta metric with β = 4**, which strongly emphasizes recall. Missing hard-to-detect particles (like thyroglobulin or β-galactosidase) is more heavily penalized than introducing a few false positives. This approach ensures that the rare but biologically significant complexes are identified whenever possible, even if it means tolerating some over-segmentation in easier classes.
 
