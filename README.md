@@ -1,7 +1,5 @@
 # CryoET Object Identification - Supervised 3D Image Segmentation
 
-[NOTE! Project is ongoing. Please see the [Presentation](https://github.com/ZahirAhmadChaudhry/Cryo-ET-Object-Detection-and-Segmentation-Kaggle/blob/main/presentation/Cryo_ET_Presentation.pdf) for latest updates on the project]
-
 This repository showcases our ongoing effort to develop a **3D U-Net**-based framework for detecting and classifying multiple protein complexes within cryo-electron tomograms (cryoET). We are participating in the [Kaggle Challenge “CryoET Object Identification”](https://www.kaggle.com/competitions/czii-cryo-et-object-identification), which involves accurately finding the centroid coordinates of up to five particle types—some of which are considered easier (apo-ferritin, virus-like particles, ribosomes) and some harder (thyroglobulin, β-galactosidase). By tackling this challenge, we hope to further computational biology research by clarifying protein spatial organization in a near-native environment.
 
 ![Tomogram Slices](presentation/tomogram-slice.jpg)
