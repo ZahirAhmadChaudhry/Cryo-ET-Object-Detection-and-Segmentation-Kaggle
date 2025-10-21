@@ -180,7 +180,7 @@ For detailed methodology, mathematical formulations, and comprehensive results, 
 ## Authors
 
 **Zahir AHMAD**  
-Master MLDM (Machine Learning and Data Mining) 
+Master Machine Learning and Data Mining (MLDM) \
 Jean Monnet University
 
 **Amgad KHALIL**  
