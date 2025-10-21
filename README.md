@@ -173,10 +173,24 @@ Potential improvements for future work:
 
 ## References
 
-For detailed methodology, mathematical formulations, and comprehensive results, please refer to our full project report: `Cryo_ET_Project_Report.pdf`
+For detailed methodology, mathematical formulations, and comprehensive results, please refer to our full project report: [Cryo_ET_Project_Report.pdf](Cryo_ET_Project_Report.pdf)
 
 ---
 
-**Project Repository**: [Cryo-ET-Object-Detection-and-Segmentation-Kaggle](https://github.com/ZahirAhmadChaudhry/Cryo-ET-Object-Detection-and-Segmentation-Kaggle)
+## Authors
+
+**Zahir AHMAD**  
+Master MLDM (Machine Learning and Data Mining) 
+Jean Monnet University
+
+**Amgad KHALIL**  
+Master MLDM  
+Jean Monnet University
+
+**Josh TRIVEDI**  
+Master MLDM  
+Jean Monnet University
+
+---
 
 **Competition**: [Kaggle - CryoET Object Identification](https://www.kaggle.com/competitions/czii-cryo-et-object-identification)
